@@ -21,22 +21,23 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.lazada.com.my/')
 
-WebUI.waitForPageLoad(3);
+WebUI.setText(findTestObject('Checkout/Lazada Home Page for Checkout flow/Input-Enter-Search-Text-Home-Page'), 
+    'Samsung mobile')
 
-WebUI.click(findTestObject('Login/Page_Lazada.com.my Login And Home/a_LOGIN'))
+WebUI.click(findTestObject('Checkout/Lazada Home Page for Checkout flow/Search-Button-Home-page'))
 
-WebUI.waitForElementPresent(findTestObject('Login/Page_Lazada.com.my Login And Home/a_LOGIN'), 3);
+WebUI.click(findTestObject('Checkout/Samsung Mobile Page/Mobile Product div'))
 
-WebUI.setText(findTestObject('Login/Page_Lazada.com.my Login And Home/input'), 'mulakdev@gmail.com')
+WebUI.verifyElementText(findTestObject('Checkout/Mobile Home Page With All Details/Add-To-Cart-Button'), 
+    'Add to Cart')
 
-WebUI.setEncryptedText(findTestObject('Login/Page_Lazada.com.my Login And Home/input_1'), '+MfhyFZ71/7fzlB1p/ebXw==')
+WebUI.click(findTestObject('Checkout/Mobile Home Page With All Details/Add-To-Cart-Button'))
 
-WebUI.verifyElementClickable(findTestObject('Login/Page_Lazada.com.my Login And Home/button_LOGIN'))
+WebUI.verifyElementPresent(findTestObject('Checkout/Mobile Home Page With All Details/button_LOGIN-After-Clicking-Add-ToCart'), 
+    0)
 
-// WebUI.click(findTestObject('Login/Page_Lazada.com.my Login And Home/button_LOGIN'))
-
-WebUI.verifyElementText(findTestObject('Login/Page_Lazada.com.my Login And Home/span_Slide to login'), 'Slide to login')
-
-WebUI.waitForElementPresent(findTestObject('Login/Page_Lazada.com.my Login And Home/span_Slide to login'), 3);
+WebUI.verifyElementText(findTestObject('Checkout/Mobile Home Page With All Details/button_LOGIN-After-Clicking-Add-ToCart'), 
+    'LOGIN')
 
 WebUI.closeBrowser()
+
