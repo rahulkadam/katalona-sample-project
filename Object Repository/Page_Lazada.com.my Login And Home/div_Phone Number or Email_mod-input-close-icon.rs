@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_document.write(window._punish_language__1b57a6</name>
+   <name>div_Phone Number or Email_mod-input-close-icon</name>
    <tag></tag>
-   <elementGuidId>1d8106ad-360c-4b4a-bfb9-7017d6af3cf6</elementGuidId>
+   <elementGuidId>9547aaed-61be-4196-afa3-25d36ecb79d4</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>div.bannar</value>
+         <value>div.mod-input-close-icon</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div/div/div</value>
+         <value>//div[@id='container']/div/div[2]/form/div/div/div/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,46 +28,34 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>bannar</value>
+      <value>mod-input-close-icon</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-spm-anchor-id</name>
       <type>Main</type>
-      <value>0.0.0.i3.4814288allk8Q8</value>
+      <value>a2o4k.login_signup.0.i5.51b049fbh5CADY</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>
-                
-                
-                    document.write(window._punish_language_[&quot;captcha-h5-tips&quot;])Sorry, we have detected unusual traffic from your network.
-                
-            </value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/div[@class=&quot;wrapper&quot;]/div[@class=&quot;content-inside&quot;]/div[@class=&quot;bannar&quot;]</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ref_element</name>
-      <type>Main</type>
-      <value>Object Repository/Page_ZANZEA Muslimah Womens Muslim Long Sle_430815/iframe_concat(id(, , sufei-dialog-content, _9c864f</value>
+      <value>id(&quot;container&quot;)/div[@class=&quot;login&quot;]/div[2]/form[1]/div[@class=&quot;mod-login&quot;]/div[@class=&quot;mod-login-col1&quot;]/div[@class=&quot;mod-input floating mod-login-input-loginName mod-input-loginName&quot;]/div[@class=&quot;mod-input-close-icon&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='container']/div/div[2]/form/div/div/div/div</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div/div/div</value>
+      <value>//form/div/div/div/div</value>
    </webElementXpaths>
 </WebElementEntity>

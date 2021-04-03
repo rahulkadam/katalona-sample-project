@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Lazada-Test</name>
+   <name>Lazada-Login-With-Id-pwd</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>f833fd6a-88e8-43b3-925a-fc81c041e95d</testCaseGuid>

@@ -3,7 +3,7 @@
    <description></description>
    <name>input_1</name>
    <tag></tag>
-   <elementGuidId>460e1522-27a9-4010-b0c2-7c59c993d3c9</elementGuidId>
+   <elementGuidId>0a3edf8e-e8c8-4173-bcb6-f5cd4fcb3c6c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@value='m']</value>
+         <value>//input[@value='L']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -49,35 +49,35 @@
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>m</value>
+      <value>L</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-spm-anchor-id</name>
+      <type>Main</type>
+      <value>a2o4k.login_signup.0.i2.71d849fb65ZcNg</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;container&quot;)/div[@class=&quot;login-container&quot;]/div[@class=&quot;login-outer&quot;]/div[@class=&quot;login-inner&quot;]/div[2]/form[1]/div[@class=&quot;mod-login&quot;]/div[@class=&quot;mod-login-col1&quot;]/div[@class=&quot;mod-input focus floating mod-input-password mod-login-input-password mod-input-password&quot;]/input[1]</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ref_element</name>
-      <type>Main</type>
-      <value>Object Repository/Page_ZANZEA Muslimah Womens Muslim Long Sle_430815/iframe_concat(id(, , dialog-body-1, , )ifra_59e7d3</value>
+      <value>id(&quot;container&quot;)/div[@class=&quot;login&quot;]/div[2]/form[1]/div[@class=&quot;mod-login&quot;]/div[@class=&quot;mod-login-col1&quot;]/div[@class=&quot;mod-input focus floating mod-input-password mod-login-input-password mod-input-password&quot;]/input[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@value='m']</value>
+      <value>//input[@value='L']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='container']/div/div/div/div[2]/form/div/div/div[2]/input</value>
+      <value>//div[@id='container']/div/div[2]/form/div/div/div[2]/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

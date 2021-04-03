@@ -19,20 +19,24 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/index.php/dashboard')
+WebUI.navigateToUrl('https://www.lazada.com.my/')
 
-WebUI.setText(findTestObject('Object Repository/record/Page_OrangeHRM/input_LOGIN Panel_txtUsername'), 'Admin')
+WebUI.waitForPageLoad(3);
 
-WebUI.setEncryptedText(findTestObject('Object Repository/record/Page_OrangeHRM/input_Username_txtPassword'), 'hUKwJTbofgPU9eVlw/CnDQ==')
+WebUI.click(findTestObject('Object Repository/Page_Lazada.com.my Login And Home/a_LOGIN'))
 
-WebUI.click(findTestObject('Object Repository/record/Page_OrangeHRM/input_Password_Submit'))
+WebUI.waitForElementPresent(findTestObject('Object Repository/Page_Lazada.com.my Login And Home/a_LOGIN'), 3);
 
-WebUI.click(findTestObject('Object Repository/record/Page_OrangeHRM/img'))
+WebUI.setText(findTestObject('Object Repository/Page_Lazada.com.my Login And Home/input'), 'mulakdev@gmail.com')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/record/Page_OrangeHRM/select_2021-03-29 to 2021-04-042021-03-22 t_314a9c'), 
-    '5', true)
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Lazada.com.my Login And Home/input_1'), '+MfhyFZ71/7fzlB1p/ebXw==')
 
-WebUI.click(findTestObject('Object Repository/record/Page_OrangeHRM/input_Status Not Submitted_button'))
+WebUI.verifyElementClickable(findTestObject('Object Repository/Page_Lazada.com.my Login And Home/button_LOGIN'))
+
+// WebUI.click(findTestObject('Object Repository/Page_Lazada.com.my Login And Home/button_LOGIN'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Lazada.com.my Login And Home/span_Slide to login'), 'Slide to login')
+
+WebUI.waitForElementPresent(findTestObject('Object Repository/Page_Lazada.com.my Login And Home/span_Slide to login'), 3);
 
 WebUI.closeBrowser()
-

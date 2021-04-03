@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Buy Now</name>
+   <name>a_LOGIN</name>
    <tag></tag>
-   <elementGuidId>3b80d72f-8721-4604-b086-cdfc5b9133cd</elementGuidId>
+   <elementGuidId>1e7128c9-ae82-4c51-9f78-041c0748bca4</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>span.pdp-button-text > span</value>
+         <value>a.grey</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='module_add_to_cart']/div/button/span/span</value>
+         <value>//div[@id='anonLogin']/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,76 +21,104 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>grey</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>//member.lazada.com.my/user/login?spm=a2o4k.home.header.d5.75f82e7eyGQCJk</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-spm-click</name>
+      <type>Main</type>
+      <value>gostr=/lzdpub.header.tbar;locaid=d5</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-spm-anchor-id</name>
       <type>Main</type>
-      <value>a2o4k.pdp_revamp.0.i2.11ba2d76Negdff</value>
+      <value>a2o4k.home.header.d5</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Buy Now</value>
+      <value>LOGIN</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;module_add_to_cart&quot;)/div[@class=&quot;pdp-cart-concern&quot;]/button[@class=&quot;add-to-cart-buy-now-btn  pdp-button pdp-button_type_text pdp-button_theme_yellow pdp-button_size_xl&quot;]/span[@class=&quot;pdp-button-text&quot;]/span[1]</value>
+      <value>id(&quot;anonLogin&quot;)/a[@class=&quot;grey&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='module_add_to_cart']/div/button/span/span</value>
+      <value>//div[@id='anonLogin']/a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'LOGIN')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Quantity'])[1]/following::span[6]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Click here'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='XXL'])[1]/following::span[10]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Your order number:'])[1]/following::a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add to Cart'])[1]/preceding::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='signup'])[1]/preceding::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Delivery Options'])[1]/preceding::span[3]</value>
+      <value>//*/text()[normalize-space(.)='LOGIN']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
+      <name>xpath:href</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Buy Now']/parent::*</value>
+      <value>//a[contains(@href, '//member.lazada.com.my/user/login?spm=a2o4k.home.header.d5.75f82e7eyGQCJk')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//button/span/span</value>
+      <value>//div[5]/a</value>
    </webElementXpaths>
 </WebElementEntity>

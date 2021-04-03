@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Username_txtPassword</name>
+   <name>input</name>
    <tag></tag>
-   <elementGuidId>18ce87e5-f2bf-4e0e-aeb1-c857decf79ca</elementGuidId>
+   <elementGuidId>2f15339d-1098-482e-a187-84111e48b322</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#txtPassword</value>
+         <value>input[type=&quot;text&quot;]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='txtPassword']</value>
+         <value>(//input[@value=''])[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,57 +26,64 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>name</name>
+      <name>type</name>
       <type>Main</type>
-      <value>txtPassword</value>
+      <value>text</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>placeholder</name>
       <type>Main</type>
-      <value>txtPassword</value>
+      <value>Please enter your Phone Number or Email</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>autocomplete</name>
+      <name>data-meta</name>
       <type>Main</type>
-      <value>off</value>
+      <value>Field</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>error</name>
       <type>Main</type>
-      <value>password</value>
+      <value>Mandatory Field.</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-spm-anchor-id</name>
+      <type>Main</type>
+      <value>a2o4k.login_signup.0.i1.71d849fb65ZcNg</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;txtPassword&quot;)</value>
+      <value>id(&quot;container&quot;)/div[@class=&quot;login&quot;]/div[2]/form[1]/div[@class=&quot;mod-login&quot;]/div[@class=&quot;mod-login-col1&quot;]/div[@class=&quot;mod-input focus error mod-login-input-loginName mod-input-loginName&quot;]/input[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='txtPassword']</value>
+      <value>(//input[@value=''])[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='divPassword']/input</value>
+      <value>//div[@id='container']/div/div[2]/form/div/div/div/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/input</value>
+      <value>//div/div/div/input</value>
    </webElementXpaths>
 </WebElementEntity>
